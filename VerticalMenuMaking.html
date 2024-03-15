@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yatay menü yapımı () vertical</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+
+        ul{
+            list-style-type: none;
+            width: 40%;
+        }
+        ul li{
+            padding: 15px;
+            background-color:olive;
+            margin-left: -30px;
+        }
+        ul li:hover{
+            background-color: orange;
+            transition: 0.5s;
+        }
+            
+        ul li a{
+            text-decoration: none;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+
+        }
+        ul li:nth-child(1){
+            background-color:darkslategrey;
+        }
+        i{
+            padding-right: 10px;
+            color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="#"><i class="fa-solid fa-newspaper"></i> News</a></li>
+        <li><a href="#"><i class="fa-solid fa-address-book"></i> Contact</a></li>
+        <li><a href="#"><i class="fa-regular fa-address-card"></i> About</a></li>
+    </ul>
+</body>
+</html>
